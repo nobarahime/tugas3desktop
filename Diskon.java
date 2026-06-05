@@ -1,0 +1,19 @@
+//encapsulation
+public class Diskon extends MenuItem {
+    private double diskon;
+
+    public Diskon(String nama, double diskon) {
+        super(nama, 0, "Diskon");
+        this.diskon = diskon;
+    }
+
+    public double getDiskon() {
+        return diskon;
+    }
+
+    //polymorphism
+    @Override
+    public void tampilMenu() {
+        System.out.println(getNama() + " | Diskon " + diskon + "%");
+    }
+}
