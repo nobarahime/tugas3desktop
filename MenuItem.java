@@ -1,4 +1,4 @@
-//abstraction
+//abstraction & encapsulation
 public abstract class MenuItem {
     private String nama;
     private double harga;
